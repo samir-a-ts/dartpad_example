@@ -4,10 +4,8 @@ void main() {
 
     if (str == '2 3') {
       _result(true);
-    } else if (str == '23') {
-      _result(false, ['Test failed. It looks like you forgot the space!']);
     } else {
-      _result(false, ['That\'s not quite right. Keep trying!']);
+      _result(false, ['Пока что не то, но ты в верном направлении!', 'Keep trying!']);
     }
   } catch (e) {
     _result(false, ['Tried calling stringify(2, 3), but received an exception: ${e.runtimeType}']);
