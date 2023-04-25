@@ -1,0 +1,6 @@
+name: Flutter DartPad repo
+
+mode: dart # or 'flutter'
+
+files:
+  - name: main.dart

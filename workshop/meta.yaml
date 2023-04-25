@@ -1,0 +1,12 @@
+name: Example workshop
+type: flutter # This should be either "dart" or "flutter".
+steps:
+  - name: Initialize
+    directory: steps/initialize
+    has_solution: true
+  - name: Build
+    directory: steps/build
+    has_solution: false
+  - name: Release
+    directory: steps/release
+    has_solution: false

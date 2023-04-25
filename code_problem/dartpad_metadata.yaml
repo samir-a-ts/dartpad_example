@@ -1,0 +1,8 @@
+name: Flutter DartPad repo
+
+mode: dart # or 'flutter'
+
+files:
+  - name: main.dart
+  - name: solution.dart
+  - name: hint.txt
